@@ -3,11 +3,10 @@
  *
  * Want to add more?
  * 1. Find the icon you want on Phosphor Icons.
- * 2. Click “Copy SVG”.
+ * 2. Click "Copy SVG".
  * 3. Paste the SVG code in your editor.
  * 4. Remove the `<svg>` wrapper so you only have elements like `<path>`, `<circle>`, `<rect>` etc.
  * 5. Remove any `stroke="#000000"` attributes
- * 6. Replace any `fill="#000000"` attributes with `stroke="none"`
  *    (or add `stroke="none"` on shapes with no `fill` or `stroke` specified).
  */
 export const iconPaths = {
@@ -35,4 +34,5 @@ export const iconPaths = {
 	'linkedin-logo': `<rect width="184" height="184" x="36" y="36" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" rx="8"/><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M120 112v64m-32-64v64m32-36a28 28 0 0 1 56 0v36"/><circle stroke="none" cx="88" cy="80" r="12"/>`,
 	'instagram-logo': `<circle cx="128" cy="128" r="40" fill="none" stroke-miterlimit="10" stroke-width="16"/><rect width="184" height="184" x="36" y="36" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" rx="48"/><circle cx="180" cy="76" r="12" stroke="none" />`,
 	'tiktok-logo': `<path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M168 106a96 96 0 0 0 56 18V84a56 56 0 0 1-56-56h-40v128a28 28 0 1 1-40-25V89a68 68 0 1 0 80 67Z"/>`,
+	'itchio-logo': `<path d="M2 4c0-1.1.9-2 2-2h16c1.1 0 2 .9 2 2v2h2v3h-1v11c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V9H0V6h2V4zm2 0v2h16V4H4zm16 4H4v10c0 .6.4 1 1 1h14c.6 0 1-.4 1-1V8zm-7 3.5c-1.38 0-2.5 1.12-2.5 2.5S11.62 16.5 13 16.5s2.5-1.12 2.5-2.5S14.38 11.5 13 11.5zm0 1c.83 0 1.5.67 1.5 1.5S13.83 15.5 13 15.5s-1.5-.67-1.5-1.5S12.17 12.5 13 12.5z" fill="currentColor"/>`,
 };

@@ -1,10 +1,10 @@
-# Rakan Aljarallah - Portfolio
+# Zeyad Alghannam - Portfolio
 
 Welcome to my personal portfolio website showcasing my work as a Software Engineer specializing in Back-End Technology, Game Development with Unity, 3D Modeling & Metaverse Integration.
 
 ## About Me
 
-I am Rakan Aljarallah, a passionate Software Engineer with expertise in:
+I am Zeyad Alghannam, a passionate Software Engineer with expertise in:
 - **Back-End Development**: Server-side programming, database design, and API development
 - **Game Development**: Unity game engine development and interactive experiences
 - **3D Modeling & Metaverse**: 3D modeling techniques and metaverse integration

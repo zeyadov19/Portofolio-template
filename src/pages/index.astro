@@ -25,29 +25,21 @@ const projects = (await getCollection('work'))
 // https://docs.astro.build/basics/astro-components/
 ---
 
-<BaseLayout title="Rakan Aljarallah" description="Software Engineer specializing in Back-End Technology, Game Development with Unity, 3D Modeling & Metaverse Integration.">
+<BaseLayout title="Zeyad Alghannam" description="Game Developer and Computer Science graduate specializing in 2D game development with Unity and Game Maker Studio.">
 	<div class="stack gap-20 lg:gap-48">
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Rakan Aljarallah"
-					tagline="I am a Software Engineer with expertise in Problem Solving, Back-End Technology, Game Development with Unity, 3D Modeling & Metaverse Integration."
+					title="Hello, I'm Zeyad Alghannam"
+					tagline="A passionate Game Developer and recent Computer Science graduate from Majmaah University. I specialize in 2D game development, creating interactive experiences with Unity and Game Maker Studio."
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Software Engineer</Pill>
-						<Pill><Icon icon="rocket-launch" size="1.33em" /> Game Developer</Pill>
-						<Pill><Icon icon="strategy" size="1.33em" /> 3D Modeler</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Game Developer</Pill>
+						<Pill><Icon icon="rocket-launch" size="1.33em" /> Unity Developer</Pill>
+						<Pill><Icon icon="strategy" size="1.33em" /> Computer Science Graduate</Pill>
 					</div>
 				</Hero>
-
-				{/* TODO: add your own portrait */}
-				<img
-					alt="Rakan Aljarallah - Software Engineer and Game Developer"
-					width="480"
-					height="620"
-					src="/assets/empty.png"
-				/>
 			</header>
 
 			<Skills />
@@ -56,8 +48,8 @@ const projects = (await getCollection('work'))
 		<main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured projects showcasing my skills in software development, game development, and 3D modeling.</p>
+					<h3>Featured Games</h3>
+					<p>Explore my portfolio of 2D games developed with Unity and Game Maker Studio, showcasing gameplay mechanics, UI systems, and interactive experiences.</p>
 				</header>
 
 				<div class="gallery">
@@ -74,7 +66,7 @@ const projects = (await getCollection('work'))
 
 				<div class="cta">
 					<CallToAction href="/work/">
-						View All
+						View All Games
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
 				</div>
@@ -82,16 +74,16 @@ const projects = (await getCollection('work'))
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Technologies & Platforms</h3>
+					<h3>Skills & Technologies</h3>
 					<p>
-						I work with a variety of technologies and platforms to bring creative ideas to life.
+						I work with modern game development tools and technologies to bring creative ideas to life.
 					</p>
 				</header>
 
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Unity', 'Back-End Development', '3D Modeling', 'Metaverse', 'Problem Solving'].map((tech) => (
+							['Unity', 'Game Maker Studio', 'C#', 'GML', '2D Game Development', 'UI Systems', 'Dialogue Systems', 'Input Handling', 'Prototyping'].map((tech) => (
 								<li class="mention-card">
 									<p>{tech}</p>
 								</li>
@@ -118,14 +110,6 @@ const projects = (await getCollection('work'))
 		display: none;
 	}
 
-	.hero img {
-		aspect-ratio: 5 / 4;
-		object-fit: cover;
-		object-position: top;
-		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
-	}
-
 	@media (min-width: 50em) {
 		.hero {
 			display: grid;
@@ -138,12 +122,6 @@ const projects = (await getCollection('work'))
 			margin-top: 0.5rem;
 			display: flex;
 			gap: 0.5rem;
-		}
-
-		.hero img {
-			aspect-ratio: 3 / 4;
-			border-radius: 4.5rem;
-			object-fit: cover;
 		}
 	}
 
